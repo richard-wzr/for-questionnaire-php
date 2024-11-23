@@ -1,5 +1,5 @@
 <?php
-
+namespace Src;
 class MyGreeter
 {
     //php需要先在php.ini中设置时区！否则默认使用UTC时间

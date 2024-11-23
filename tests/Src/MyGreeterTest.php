@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-include 'Src/MyGreeter.php';
+use Src\MyGreeter;
 
 class MyGreeterTest extends TestCase
 {

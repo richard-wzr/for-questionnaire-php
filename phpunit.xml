@@ -5,9 +5,4 @@
         displayDetailsOnTestsThatTriggerNotices="true"
         displayDetailsOnTestsThatTriggerWarnings="true"
 >
-    <testsuites>
-        <testsuite name="src">
-            <directory>/Src</directory>
-        </testsuite>
-    </testsuites>
 </phpunit>
