@@ -35,5 +35,6 @@ class MyGreeterTest extends TestCase
         $this->assertEquals($this->greeter->greet_by_hour(0),"Error");
         $this->assertEquals($this->greeter->greet_by_hour(-10000),"Error");
         $this->assertEquals($this->greeter->greet_by_hour(3000),"Error");
+        $this->assertEquals($this->greeter->greet_by_hour('ABCD'),"Error");
     }
 }
