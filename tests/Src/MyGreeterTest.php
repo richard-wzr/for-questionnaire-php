@@ -32,7 +32,7 @@ class MyGreeterTest extends TestCase
         $this->assertEquals($this->greeter->greet_by_hour(15),"Good afternoon");
         $this->assertEquals($this->greeter->greet_by_hour(18),"Good evening");
         $this->assertEquals($this->greeter->greet_by_hour(5),"Good evening");
-        $this->assertEquals($this->greeter->greet_by_hour(0),"Error");
+        $this->assertEquals($this->greeter->greet_by_hour(0),"Good morning");
         $this->assertEquals($this->greeter->greet_by_hour(-10000),"Error");
         $this->assertEquals($this->greeter->greet_by_hour(3000),"Error");
         $this->assertEquals($this->greeter->greet_by_hour('ABCD'),"Error");

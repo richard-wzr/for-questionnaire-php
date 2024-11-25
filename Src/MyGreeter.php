@@ -11,7 +11,7 @@ class MyGreeter
      */
     public function greet_by_hour($h): string
     {
-        if ($h >= 24 || $h <= 0) {
+        if ($h >= 24 || $h < 0) {
             return "Error";
         }
         if ($h >= 6 && $h < 12) {
